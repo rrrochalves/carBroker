@@ -4,12 +4,19 @@ Foi usado o Java 17 com framework Spring boot para a construção do back-end;
 Em conjunto com algumas bibliotecas para o gerenciamento do projeto, segue abaixo as bibliotecas usadas:
   
   Spring Boot Starter Validation: para validação de entrada de dados;
+  
   Spring Boot Starter Data JPA: para a interação com o banco de dados;
+  
   Spring Boot Starter Web: para a esposição dos end-points para a api rest-full;
+  
   FlywayDB: para a construção das tabelas no banco de dados;
+  
   Lombok: para produtividade na construção de codigos;
+  
   SpringDoc OpenAPI Starter WebMVC UI: para a documentação da api;
+  
   HSQLDB (HyperSQL Database): é um mecanismo de banco de dados relacional escrito em Java, versão da versão 2.7 oferece muitos recursos e adere de perto aos mais recentes padrões SQL e JDBC 4.
+  
   Spring Boot Starter Test: Atividade para testar aplicações Spring Boot com bibliotecas incluindo JUnit Jupiter, Hamcrest e Mockito.
 
 Disposição dos pacotes dentro da aplicação:
