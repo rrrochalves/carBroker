@@ -20,6 +20,7 @@ Em conjunto com algumas bibliotecas para o gerenciamento do projeto, segue abaix
   Spring Boot Starter Test: Atividade para testar aplicações Spring Boot com bibliotecas incluindo JUnit Jupiter, Hamcrest e Mockito.
 
 Disposição dos pacotes dentro da aplicação:
+
   /config: pacote responsavel pelas configurações do sistema;
   
   /domain: responsavel pelo dominio da aplicação, onde se concentra as representações das tabelas do sistemas;
