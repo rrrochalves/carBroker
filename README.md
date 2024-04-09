@@ -21,9 +21,15 @@ Em conjunto com algumas bibliotecas para o gerenciamento do projeto, segue abaix
 
 Disposição dos pacotes dentro da aplicação:
   /config: pacote responsavel pelas configurações do sistema;
+  
   /domain: responsavel pelo dominio da aplicação, onde se concentra as representações das tabelas do sistemas;
+  
   /exception: é responsável pelo tratamento de erros da api;
+  
   /factory: responsavel pela conversão das entidade do dominio em DTO's para a exibição para o cliente;
+  
   /gateway: é responsavel pela exposição dos end-points da api;
+  
   /repository: é responsavel pela iteração com o banco de dados;
+  
   /service: responsavél por toda a regra de negocio;
