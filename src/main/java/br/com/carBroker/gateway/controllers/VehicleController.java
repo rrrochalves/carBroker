@@ -54,7 +54,7 @@ public class VehicleController {
             UriComponentsBuilder uriComponentsBuilder) {
         VehicleIdResponseDTO vehicleIdResponseDTO = service.createVehicle(vehicleRequestDTO);
 
-        var uri = uriComponentsBuilder.path("/vehicle-model/{id}").buildAndExpand(vehicleIdResponseDTO.id()).toUri();;
+        var uri = uriComponentsBuilder.path("/vehicle/{id}").buildAndExpand(vehicleIdResponseDTO.id()).toUri();;
 
         return ResponseEntity.created(uri).body(vehicleIdResponseDTO);
     }
